@@ -1,4 +1,4 @@
-#challenge
+# daily-typescript-challenges
 
 ### 2022/12/26
 
@@ -22,3 +22,12 @@
 
 - in -> mapped a array
 - @ts-expect-error -> 注释
+
+### 2022/12/29
+
+> easy-first-of-array
+
+- extends
+- tuple["length"]
+- extends + union type (unsupport)
+- infer
