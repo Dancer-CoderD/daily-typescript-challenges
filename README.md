@@ -31,3 +31,11 @@
 - tuple["length"]
 - extends + union type (unsupport)
 - infer
+
+### 2022/12/30
+
+> easy-tuple-of-length
+
+- tuple["length"] -> value
+- array["length"] -> type of number
+- as const + typeof -> readonly
