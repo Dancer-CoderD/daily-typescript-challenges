@@ -39,3 +39,10 @@
 - tuple["length"] -> value
 - array["length"] -> type of number
 - as const + typeof -> readonly
+
+### 2023/1/1
+
+> easy-exclude
+
+- extends
+- T extends U ? never : T;
