@@ -46,3 +46,10 @@
 
 - extends
 - T extends U ? never : T;
+
+### 2023/1/2
+
+> easy-await
+
+- infer
+- T extends Promise<infer X> ? T : never;
