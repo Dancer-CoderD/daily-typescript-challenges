@@ -53,3 +53,12 @@
 
 - infer
 - T extends Promise<infer X> ? T : never;
+
+### 2023/1/3
+
+> easy-if
+
+- 类型兼容性
+- null 在严格模式和非严格模式下的区别
+- - Important!
+- - https://www.typescriptlang.org/docs/handbook/type-compatibility.html
