@@ -62,3 +62,10 @@
 - null 在严格模式和非严格模式下的区别
 - - Important!
 - - https://www.typescriptlang.org/docs/handbook/type-compatibility.html
+
+### 2023/1/4
+
+> easy-concat
+
+- spread
+- [...T]
