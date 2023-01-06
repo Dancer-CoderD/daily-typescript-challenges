@@ -69,3 +69,14 @@
 
 - spread
 - [...T]
+
+### 2023/1/5
+
+> easy-includes
+
+- infer-spread
+- extends 约束
+- 模块规范：
+- 文件内有 export/import 那么该文件是模块
+- 使用时需要有对应的导出和引入
+- 文件内没有时就是全局可用的
