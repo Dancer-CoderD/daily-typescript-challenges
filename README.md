@@ -5,7 +5,7 @@
 > easy-pick
 
 - in -> mapped an union
-- todo[key] -> indexed
+- `todo[key]` -> indexed
 - keyof -> lookup
 - extends -> constraints
 
@@ -28,7 +28,7 @@
 > easy-first-of-array
 
 - extends
-- tuple["length"]
+- `tuple["length"]`
 - extends + union type (unsupport)
 - infer
 
@@ -36,8 +36,8 @@
 
 > easy-tuple-of-length
 
-- tuple["length"] -> value
-- array["length"] -> type of number
+- `tuple["length"]` -> value
+- `array["length"]` -> type of number
 - as const + typeof -> readonly
 
 ### 2023/1/1
@@ -68,7 +68,7 @@
 > easy-concat
 
 - spread
-- [...T]
+- `[...T]`
 
 ### 2023/1/5
 
@@ -86,4 +86,12 @@
 > easy-push-unshift
 
 - spread
-- [...T, U]
+- `[...T, U]`
+
+### 2023/1/7
+
+> easy-myparameters
+
+- infer
+- extends (...args: infer X) => any ? X : never
+- [https://github.com/Microsoft/TypeScript/pull/24897]
