@@ -95,3 +95,10 @@
 - infer
 - extends (...args: infer X) => any ? X : never
 - [https://github.com/Microsoft/TypeScript/pull/24897]
+
+### 2023/1/8
+
+> medium-get-return-type
+
+- like easy-myparameters
+- T extends (...args: any[]) => infer X ? X : never
