@@ -102,3 +102,11 @@
 
 - like easy-myparameters
 - T extends (...args: any[]) => infer X ? X : never
+
+### 2023/1/9
+
+> medium-omit
+
+- `[P in keyof T as P extends K ? never : P] : T[P]`
+- `Pick<T, Exclude<keyof T, K>>`
+- how to use `as` ?
