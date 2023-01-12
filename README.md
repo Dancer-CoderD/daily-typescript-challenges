@@ -110,3 +110,7 @@
 - `[P in keyof T as P extends K ? never : P] : T[P]`
 - `Pick<T, Exclude<keyof T, K>>`
 - how to use `as` ?
+
+### 2023/1/12
+
+> 放假回家过年了，年后回来继续更，新年快乐 UU 们~
